@@ -159,16 +159,27 @@ footer {
 }
 
 .participants-list {
-  margin-left: 18px;
+  margin-left: 0;
   margin-bottom: 0;
   color: #333;
   font-size: 15px;
-  list-style-type: disc;
+  list-style-type: none;
+  padding-left: 0;
 }
 
-.participants-empty {
-  color: #888;
-  font-style: italic;
-  margin-left: 2px;
-  font-size: 15px;
+.participants-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.delete-participant-btn {
+  background: none;
+  border: none;
+  color: #c62828;
+  margin-left: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1;
+  padding: 0;
 }
